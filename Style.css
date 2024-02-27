@@ -27,7 +27,7 @@ a {
 }
 
 header .me {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 30px;
     margin-left: 30px;
     display: flex;
@@ -64,8 +64,8 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    padding-top: 270px;
-    padding-bottom: 100px;
+    padding-top: 250px;
+    padding-bottom: 70px;
 }
 
 .product {
@@ -73,12 +73,12 @@ section {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    width: 200px;
+    width: 120px;
     height: auto;
 }
 
 .product a {
-    padding: 5px;
+    padding: 1px;
 }
 
 .product i {
@@ -106,12 +106,12 @@ section {
 
 .menu a {
     justify-content: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .menu i {
-    font-size: 25px;
-    margin: 15px;
+    font-size: 20px;
+    margin: 10px;
 }
 
 .bodytype {
@@ -144,27 +144,7 @@ section {
 .PicDress {
     margin: 5px;
     float: left;
-    width: 180px;
+    width: 110px;
 
 }
 
-@media screen and (max-width: 767px) {
-    .team-member img {
-width: 256px;
-height: auto;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .team-member {
-        display: flex;
-    }
-    .team-member img {
-width: 150px;
-height: auto;
-margin-right: 20px;
-    }
-    .team-member .info {
-flex: 1;
-    }
-}
